@@ -1,0 +1,88 @@
+﻿Tutorial: You wake up in a DARK room with no memories. Man who tells you need to kill a demon (very cliché). You go through a few rooms to learn basic movement and controls. You find the demon in a ritual room sees you and fucks you sideways. Drags you into dungeon. You see warlock standing over you, talking to you mockingly. as he utters a curse.
+
+
+(Ennis Here. Just working out the programming stuff)
+Tut room 1
+Dialogue from man. Then learn how to move
+Tut room 2
+Slime attacks (4 HP, 0 SP) Drops Key(To door for next room)
+Learn how to unlock doors
+Tut Room 3 
+Chest(Trapped)
+Learn how to check for traps
+
+
+Wake up in the dungeon. Stone room, wooden floors, wooden door (not reinforced)  First multipath: 
+1 Brick in the wall that you pull to go through shortcut tunnel (takes you to room 5). 
+ 2 Unidentified liquid in corner, if you inspect you get “unknown buff/debuff”
+3 Main path: wooden door with keyhole - 1 look for key (look through keyhole: see it hanging on a hook, need a stick from in corner to extend reach) 2 break door with rock (in corner). 
+NEXT ROOM (2) 
+Similar design
+There is a corpse on the floor. It looks diseased but is also well equipped. You can loot it and get a debuff or leave it.  The next time you do an action the floor will crumble away revealing a coffin which a skeleton leaps out of. {Combat} After the fight you may choose to loot one bone. You are trapped. Inspecting or looking will reveal a tunnel with no other way out you must go through it.
+Hallway (1)
+Torches on the walls, no features.
+Junction to Hallway (2) and Hallway (3)
+Hallway (2)
+There is a dead end and a {Trapped} Chest. You may open the chest or walk back. If you do not examine the chest and open it a arrow flies from the wall and damages you for 2 points and the chest locks permanently. Examining it opens it without activating the trap and you get a weak health potion that heals 1 heart-point. Then you backtrack to Hallway (3)
+Hallway (3)
+You are in the tunnel walking along  when you hear footsteps you may hide in a niche in the wall or face the owners of the footsteps. If you decide to face the owners of the footsteps they are revealed as weak goblins which you fight {combat}. If you hide you avoid the combat and continue to:
+Room (3)
+In the room is a fat sleeping Ogre and a box you may fight the Ogre, ignore the room or sneak in and steal the box.  Ogre will wake up if you do not use the {sneak} command. INITIATE COMBAT. if you sneak, loot the chest and leave. (Box contains food ((reskinned health potion, trollburgers, rat tail soup, boiled swedish style wobwob.)).
+Room (4)
+A room containing only a metal spike in the floor. As you come in it says you are fatigued. There is no way out unless you sleep. (teleport to room 5)
+
+
+Room (5)
+Room five upon first look is seemingly empty, but at second glance (or sniff), you notice a strange odour. You see a wooden bowl in the damp corner of the room, (inspect/leave) 
+If you smoke it you get the “Baked” buff/debuff.
+
+
+
+
+
+
+
+
+My (Casper’s) Ideas go here:
+
+
+Room, on table puzzlebox (bomb) on inspection explodes in face.
+
+
+Altars- Provide a save point and cure debuffs (also removes buffs to makes it more balanced)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Finn’s Space! Wow! So doge!!!
+Im taking over this space-Harry 
+Scob blob fish????? but who knows? nobody
+
+
+
+
+
+
+u¨¨¨¨¨¨¨¨¨å©dfa∆∫¬∂˙∫œ¨˜˜  ∫∆˜˜lj∫˜˜¬ˆˆƒ∫œåø^¨®´∫√œ∑´´†¥¨ˆˆπ“‘«åß∂ƒ©˙∆˚¬…æΩ≈ç√∫˜˜≤≥Œ„´‰ˇÁ¨ˆØ∏””””’»ÅÍÎÏ˝ÓÔÒÚÆÆÆÆÆÆÆÆ¸˛Ç◊ı˜Â¯˘¿¿¿
+``````````~~~~~~~~~~~~~~~~~~~~~
+
+
+
+  THX bro.
