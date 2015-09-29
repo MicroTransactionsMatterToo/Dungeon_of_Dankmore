@@ -7,7 +7,7 @@ playerstats = {
     'inventory': {
 
     },
-    'damagemult': 0,
+    'damage': 4,
 }
 
 # Initialize Rooms
@@ -22,6 +22,8 @@ room = {
                 'name': 'Wooden Stick',
                 'desc': 'A wooden stick, could be useful',
                 'value': 0,
+                'equippable': True,
+                'damagemult': 12,
             },
         },
         'desc': 'Insert desc here',
