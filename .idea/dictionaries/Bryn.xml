@@ -1,8 +1,40 @@
 <component name="ProjectDictionaryState">
   <dictionary name="Bryn">
     <words>
+      <w>armorclass</w>
+      <w>armorvalue</w>
+      <w>basedamage</w>
+      <w>basehealth</w>
+      <w>currentamulet</w>
+      <w>currentarmor</w>
+      <w>currentlyequipped</w>
+      <w>currentring</w>
+      <w>currentweapon</w>
+      <w>damagemult</w>
+      <w>entryinfo</w>
+      <w>equipfunc</w>
+      <w>equippable</w>
+      <w>equpped</w>
+      <w>examinefunc</w>
+      <w>extradamage</w>
+      <w>extrahealth</w>
+      <w>lagley</w>
+      <w>lookfunc</w>
+      <w>movefunc</w>
+      <w>negativearmor</w>
+      <w>negativedamage</w>
+      <w>negativehealth</w>
+      <w>noitems</w>
+      <w>pickupfunc</w>
+      <w>playerstats</w>
+      <w>roomnoitems</w>
       <w>roomnumber</w>
       <w>roomnumberint</w>
+      <w>roomproperties</w>
+      <w>roomtrapped</w>
+      <w>statscalc</w>
+      <w>totalhealth</w>
+      <w>userinput</w>
     </words>
   </dictionary>
 </component>
