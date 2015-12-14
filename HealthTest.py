@@ -18,7 +18,7 @@ class health(object):
         elif current_health in range(1, int(self.low_health)):
             self.color = 'red'
         else:
-            self.color = 'black'
+            self.color = 'grey'
         self.spaces = self.health - current_health
         print('[', end='')
         print(colored(chr(9608),self.color) * current_health, end='')

@@ -1,14 +1,7 @@
 #Copyright 2015 Wet Ferret Studios
 #Import neccessary libraries
-from time import sleep
-import os
-from random import *
-from colorama import *
-from termcolor import *
-init()
-print(Fore.BLUE + '')
+import time
 #Initialize Player Class
-
 
 class Player(object):
     base_health = 100
@@ -18,6 +11,7 @@ class Player(object):
     base_magic_damage = 1
     name = 'Gerald Lagley'
     inventory = {
+
     }
     room_number = '0'
     equipped = {
@@ -104,7 +98,6 @@ class Player(object):
                     self.defense += self.equipped[i][j]['perks']['defense']
                     self.damage += self.equipped[i][j]['perks']['damage']
                     self.magic_damage += self.equipped[i][j]['perks']['magic_damage']
-                    self.current_health = self.health
                 except KeyError:
                     print('I done goofed')
 
@@ -118,7 +111,7 @@ class Player(object):
     def move(self, direction):
         try:
             self.room_number = room[self.room_number]['directions'][direction.lower()]
-            sleep(1)
+            time.sleep(1)
             print('You have moved ' + direction)
         except KeyError:
             print('Please enter a valid direction')
@@ -128,7 +121,7 @@ class Player(object):
         try:
             print('You look around and find a ' + room[self.room_number]['items'][item]['name'] + ' lying on the floor')
             print('The object is ' + room[self.room_number]['items'][item]['desc'])
-            print('You ascertain its value to be roughly ' + str(room[self.room_number]['items'][item]['value']) + colored(' gold','yellow'))
+            print('You ascertain its value to be roughly ' + str(room[self.room_number]['items'][item]['value']) + ' gold.')
         except KeyError:
             print('You look everywhere but fail to find a ' + str(item))
 
@@ -146,7 +139,7 @@ class Player(object):
                 print(room[self.room_number]['items'][i]['name'])
             except KeyError:
                 print('KeyError')
-                
+
     def pickup(self, item):
             conf = input('Do you want to pick up the ' + item.lower() + ': ')
             if conf.lower() == 'y' or conf.lower() == 'yes':
@@ -161,20 +154,20 @@ class Player(object):
     def input(self, command):
         self.command = command
         if str(self.command) == 'move':
-            self.move(input(colored('Please enter a direction: ','green')))
+            self.move(input('Please enter a direction: '))
         elif str(self.command) == 'look':
             self.look()
         elif str(self.command) == 'pickup':
-            print(colored('The items you can pick up are: ','green'))
-            colored(self.list_items(),'blue')
-            self.pickup(input(colored('What do you want to pick up: ','green')))
+            print('The items you can pick up are: ')
+            self.listitems()
+            self.pickup(input('What do you want to pick up: '))
         else:
             print('Derher')
 
     def list_items(self):
         for i in room[self.room_number]['items']:
             try:
-                print(Fore.BLUE + room[self.room_number]['items'][i]['name'])
+                print(room[self.room_number]['items'][i]['name'])
             except KeyError:
                 print('KeyError')
 
@@ -207,10 +200,7 @@ class Player(object):
         else:
             print('You rummage through your bag but can\'t find a ' + item + '.')
 
-
-#Create player with Player() class
-player = Player()
-#Initialize rooms
+# Initialize rooms
 room = {
     '0': {
         'name': 'Temple Atrium',
@@ -226,7 +216,7 @@ room = {
                     'damage': 6,
                     'defense': 0,
                     'magic_damage': 0,
-                },
+                }
             },
         },
         'desc': 'Insert desc here',
@@ -235,7 +225,6 @@ room = {
             'n': '1000',
         },
         'environment': 'Temple',
-        'hostile': False,
     },
     '1000': {
         'name': 'Temple Antechamber',
@@ -251,7 +240,6 @@ room = {
             's': '0'
         },
         'environment': 'Temple',
-        'hostile': True,
     },
     '2000': {
         'name': 'Temple Hallway',
@@ -265,3 +253,4 @@ room = {
         },
     },
 }
+player = Player()
