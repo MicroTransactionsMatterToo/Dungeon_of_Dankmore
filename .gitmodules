@@ -1,0 +1,4 @@
+[submodule "V4/build"]
+	path = V4/build
+[submodule "V4/build"]
+	url = https://github.com/MicroTransactionsMatterToo/Wet_Ferret_Engine_Docs.git
