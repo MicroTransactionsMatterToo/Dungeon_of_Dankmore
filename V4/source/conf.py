@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Wet Ferret Engine documentation build configuration file, created by
-# sphinx-quickstart on Fri Apr  8 20:48:53 2016.
+# Wet Ferret Engine Docs documentation build configuration file, created by
+# sphinx-quickstart on Fri Apr  8 21:32:46 2016.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -53,7 +53,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Wet Ferret Engine'
+project = 'Wet Ferret Engine Docs'
 copyright = '2016, Ennis Massey'
 author = 'Ennis Massey'
 
@@ -128,7 +128,7 @@ html_theme = 'alabaster'
 
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
-#html_title = 'Wet Ferret Engine v0.4-R'
+#html_title = 'Wet Ferret Engine Docs v0.4-R'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -210,7 +210,7 @@ html_static_path = ['doc_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'WetFerretEnginedoc'
+htmlhelp_basename = 'WetFerretEngineDocsdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -232,7 +232,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'WetFerretEngine.tex', 'Wet Ferret Engine Documentation',
+    (master_doc, 'WetFerretEngineDocs.tex', 'Wet Ferret Engine Docs Documentation',
      'Ennis Massey', 'manual'),
 ]
 
@@ -262,7 +262,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'wetferretengine', 'Wet Ferret Engine Documentation',
+    (master_doc, 'wetferretenginedocs', 'Wet Ferret Engine Docs Documentation',
      [author], 1)
 ]
 
@@ -276,8 +276,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'WetFerretEngine', 'Wet Ferret Engine Documentation',
-     author, 'WetFerretEngine', 'One line description of project.',
+    (master_doc, 'WetFerretEngineDocs', 'Wet Ferret Engine Docs Documentation',
+     author, 'WetFerretEngineDocs', 'One line description of project.',
      'Miscellaneous'),
 ]
 
